@@ -1,1 +1,1 @@
-M5-D2
+strive-m5-d2-node14
