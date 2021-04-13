@@ -38,7 +38,7 @@ router.get("/", (req, res) => {
 });
 
 router.get("/:id", (req, res) => {
-  console.log("UNIQUE IDENTIFIER: ", req.params.id);
+  console.log("user: ", req.params);
   const fileAsABuffer = fs.readFileSync(studentsJSONPath); // returns a buffer (machine readable, not human readable)
 
   const fileAsAString = fileAsABuffer.toString(); // returns a string from a buffer
